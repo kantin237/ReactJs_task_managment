@@ -42,7 +42,7 @@ class Box extends Component {
             })
         })
     }
-    handleDelete = id =>{
+    handleDelete = id => {
         this.setState({
             timers: this.state.timers.filter(timer => timer.id !==id)
         });
